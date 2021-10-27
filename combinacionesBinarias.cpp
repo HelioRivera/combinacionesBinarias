@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
 	int columna;
 	int verificador = 1;
 	printf("aplicacion  creada y programada por Helio Rivera Aracena.\n");
-	printf("aplicacion que permite mostrar todas las combinaciones posibles con n bits.\n");
+	printf("aplicacion que permite mostrar todas las combinaciones posibles con hasta 15 bits.\n");
 	
 	int valor;
 	while (verificador) {
@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
 		printf("ingrese cantidad de bits:\n");
 		scanf_s("%d", &columna);
 		
-		if (columna <= 30) {
+		if (columna <= 15) {
 			int cantidad_combinaciones = (int)pow(2, columna);
 
 			int** matriz = crearMatriz(cantidad_combinaciones, columna);
@@ -37,9 +37,9 @@ int main(int argc, char* argv[]) {
 			//calcular_combinaciones_con_n_bits(columna);
 		}
 		else {
-			printf("el valor ingresado debe ser menor o igual a 30");
+			printf("el valor ingresado debe ser menor o igual a 15 bits");
 		}
-		printf("\npresione 0 para salir cualquier otro para continuar : \n");
+		printf("\npresione 0 para salir cualquier otro numero para continuar : \n");
 
 		valor = scanf_s("%d", &verificador);
 
