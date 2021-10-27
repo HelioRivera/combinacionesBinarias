@@ -26,7 +26,12 @@ int main(int argc, char* argv[]) {
 	while (verificador) {
 
 		printf("ingrese cantidad de bits:\n");
-		scanf_s("%d", &columna);
+		valor = scanf_s("%d", &columna);
+
+		if (valor == 0) {
+			printf("\nvalor ingresado no valido. el programa abortara \n");
+			return -1;
+		}
 		
 		if (columna <= 15) {
 			int cantidad_combinaciones = (int)pow(2, columna);
