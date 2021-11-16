@@ -20,7 +20,8 @@ int main(int argc, char* argv[]) {
 	int columna;
 	int verificador = 1;
 	printf("aplicacion  creada y programada por Helio Rivera Aracena.\n");
-	printf("aplicacion que permite mostrar todas las combinaciones posibles con hasta 15 bits.\n");
+	printf("version 1.\n");
+	printf("aplicacion que calcula el numero de combinaciones posibles con hasta 15 bits.\n");
 	
 	int valor;
 	while (verificador) {
