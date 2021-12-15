@@ -3,7 +3,7 @@
 Esta aplicacion fue construida en el entorno de programacion visual studio 2019. lo ideal es que al clonar el proyecto lo haga desde este entorno.
 no hay garantia de que el codigo se pueda ejecutar en otro entorno de programacion.el aspecto teorico que se aborda en esta aplicacion principalmentes 
 tiene que ver con el uso de punteros y asignacion dinamica de memoria en el lenguaje de programacion c.la utilidad de esta aplicacion es mas bien didactica 
-con fines de aprendizaje. se puede entender su funcionamiento como una calculadora en modo consola de comandos la cual permitedevolver el numero de conbinaciones 
+con fines de aprendizaje. se puede entender su funcionamiento como una calculadora en modo consola de comandos la cual permite devolver el numero de conbinaciones 
 posibles con n bits. Donde n puede alcanzar un valor maximo de 15.
 
 
